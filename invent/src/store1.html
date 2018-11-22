@@ -1,0 +1,51 @@
+<html>
+   <head>
+       <title>Ontology test</title>
+   </head>
+   <body>
+       <script src="./browser.js"></script>
+
+       <div class="container-fluid">
+       <div class="row">
+     <div class="col-sm-6">
+       <form>        
+            <h3>stre</h3>         
+                <div class="form-group row">
+                   <label for="Ikey" class="col-sm-2 col-form-label"><b>key</b></label><br><br>
+                       <div class="col-sm-4">
+                             <input type="text" [(ngModel)]="keyy" placeholder="pk_name" class="form-control"name="p_name" /><br><br>
+                       </div>
+                   </div>
+                   <div class="form-group">
+                        <input type="button" class="btn btn-primary" (click)="stor()" value="store">
+                           </div>
+                      
+                       </form>
+                     </div>
+                     <script>
+                     
+                      function store()
+                      {
+                          var s=document.getElementById('keyy').value;
+                          
+                      }
+                     
+                     
+                     </script>                     
+                
+     
+
+
+
+       </body>
+       </html>
+
+
+
+
+
+
+
+
+  
+   

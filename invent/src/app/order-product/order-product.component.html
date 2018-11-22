@@ -1,0 +1,44 @@
+
+<div class="container-fluid">
+  <div class="row">
+<div class="col-sm-6">
+  <form>        
+       <h3>orderProduct</h3>         
+           <div class="form-group row">
+              <label for="pid" class="col-sm-2 col-form-label"><b>productid</b></label><br><br>
+                  <div class="col-sm-4">
+                        <input type="text" [(ngModel)]="pId1" placeholder="pkId" class="form-control"name="p_id" /><br><br>
+                  </div>
+              </div>
+          
+            <div class="form-group row">
+                <label for="custid" class="col-sm-2 col-form-label"><b>custId</b></label>
+                    <div class="col-sm-4"><br>
+                        <input type="text" [(ngModel)]="c_id" placeholder="c_id" class="form-control"name="c_id" /><br><br>
+                    </div>
+             </div>
+
+             <div class="form-group row">
+              <label for="p_name" class="col-sm-2 col-form-label"><b>productName</b></label>
+                  <div class="col-sm-4"><br>
+                      <input type="text" [(ngModel)]="prodName" placeholder="prod_name" class="form-control"name="prod_name" /><br><br>
+                  </div>
+           </div>
+
+
+             <div class="form-group row">
+              <label for="prod_quant" class="col-sm-2 col-form-label"><b>quantity</b></label>
+                  <div class="col-sm-4"><br>
+                      <input type="text" [(ngModel)]="produ_quantt" placeholder="pk_quant" class="form-control"name="pk_quant" /><br><br>
+                  </div>
+          </div>
+
+
+             <div class="form-group">
+                   <input type="button" class="btn btn-primary" (click)="orderProducts()" value="orderproduct">
+                      </div>
+                 
+                  </form>
+                </div>
+                </div>
+                </div>

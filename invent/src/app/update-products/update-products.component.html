@@ -1,0 +1,36 @@
+<div class="container-fluid">
+  <div class="row">
+<div class="col-sm-6">
+  <form>        
+       <h3>updateProduct</h3>         
+           <div class="form-group row">
+              <label for="pid" class="col-sm-2 col-form-label"><b>producid</b></label><br><br>
+                  <div class="col-sm-4">
+                        <input type="text" [(ngModel)]="pId" placeholder="pkId" class="form-control"name="p_name" /><br><br>
+                  </div>
+              </div>
+           
+
+            <div class="form-group row">
+                <label for="bk_quant" class="col-sm-2 col-form-label"><b>quantity</b></label>
+                    <div class="col-sm-4"><br>
+                        <input type="text" [(ngModel)]="pk_quantt" placeholder="pk_quant" class="form-control"name="pk_quant" /><br><br>
+                    </div>
+            </div>
+
+
+            <div class="form-group row">
+                <label for="p_price" class="col-sm-2 col-form-label"><b>price</b></label>
+                    <div class="col-sm-4"><br>
+                        <input type="text" [(ngModel)]="pk_pricee" placeholder="pk_price" class="form-control"name="pk_price" /><br><br>
+                    </div>
+             </div>
+
+             <div class="form-group">
+                   <input type="button" class="btn btn-primary" (click)="updateProducts()" value="updateproduct">
+                      </div>
+                 
+                  </form>
+                </div>
+                </div>
+                </div>

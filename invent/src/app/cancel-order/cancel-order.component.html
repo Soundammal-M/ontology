@@ -1,0 +1,38 @@
+<div class="container-fluid">
+  <div class="row">
+<div class="col-sm-6">
+  <form>        
+       <h3>Cancel Order</h3>         
+           <div class="form-group row">
+              <label for="pid" class="col-sm-2 col-form-label"><b>productid</b></label><br><br>
+                  <div class="col-sm-4">
+                        <input type="text" [(ngModel)]="product_id" placeholder="pk_id" class="form-control"name="p_id" /><br><br>
+                  </div>
+              </div>
+
+                 
+              <div class="form-group row">
+                 <label for="oid" class="col-sm-2 col-form-label"><b>orderId</b></label><br><br>
+                     <div class="col-sm-4">
+                           <input type="text" [(ngModel)]="order_id" placeholder="o_id" class="form-control"name="o_id" /><br><br>
+                     </div>
+                 </div>
+
+                 <div class="form-group row">
+                  <label for="cid" class="col-sm-2 col-form-label"><b>customerId</b></label><br><br>
+                      <div class="col-sm-4">
+                            <input type="text" [(ngModel)]="customer_id" placeholder="c_id" class="form-control"name="c_id" /><br><br>
+                      </div>
+                  </div>
+
+
+            
+
+              <div class="form-group">
+                <input type="button" class="btn btn-primary" (click)="cancelOrder()" value="cancelOrder">
+                   </div>
+              
+               </form>
+             </div>
+             </div>
+            </div>

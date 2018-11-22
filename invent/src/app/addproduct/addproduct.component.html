@@ -1,0 +1,41 @@
+<div class="container-fluid">
+  <div class="row">
+<div class="col-sm-6">
+  <form>        
+       <h3>addProduct</h3>         
+           <div class="form-group row">
+              <label for="ISBN" class="col-sm-2 col-form-label"><b>productName</b></label><br><br>
+                  <div class="col-sm-4">
+                        <input type="text" [(ngModel)]="pk_name" placeholder="pk_name" class="form-control"name="p_name" /><br><br>
+                  </div>
+              </div>
+            <div class="form-group row">
+                  <label for="bk_name" class="col-sm-2 col-form-label"><b>productBrand</b></label>
+                      <div class="col-sm-4"><br>
+                            <input type="text" [(ngModel)]="pk_brand" placeholder="pk_brand" class="form-control"name="pk_brand" /><br><br>
+                    </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="bk_avail" class="col-sm-2 col-form-label"><b>quantity</b></label>
+                    <div class="col-sm-4"><br>
+                        <input type="text" [(ngModel)]="pk_quant" placeholder="pk_quant" class="form-control"name="pk_quant" /><br><br>
+                    </div>
+            </div>
+
+
+            <div class="form-group row">
+                <label for="bk_avail" class="col-sm-2 col-form-label"><b>price</b></label>
+                    <div class="col-sm-4"><br>
+                        <input type="text" [(ngModel)]="pk_price" placeholder="pk_price" class="form-control"name="pk_price" /><br><br>
+                    </div>
+             </div>
+
+             <div class="form-group">
+                   <input type="button" class="btn btn-primary" (click)="AddProducts()" value="Addproduct">
+                      </div>
+                 
+                  </form>
+                </div>
+                </div>
+                </div>
